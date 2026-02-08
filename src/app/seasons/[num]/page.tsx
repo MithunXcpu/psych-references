@@ -30,7 +30,10 @@ export default function SeasonPage() {
 
   return (
     <div className="mx-auto max-w-4xl px-6 py-12">
-      <Link href="/" className="mb-6 inline-flex items-center gap-2 text-sm text-muted hover:text-white">
+      <Link
+        href="/"
+        className="mb-6 inline-flex items-center gap-2 text-sm text-muted transition-colors hover:text-psych-green"
+      >
         <ArrowLeft size={16} /> Back to home
       </Link>
 
@@ -38,22 +41,22 @@ export default function SeasonPage() {
         <h1 className="text-4xl font-bold">
           <span className="text-psych-green">Season {num}</span>
         </h1>
-        <div className="mt-2 flex items-center gap-4 text-sm text-muted">
-          <span>{seasonInfo.year}</span>
+        <div className="mt-3 flex flex-wrap items-center gap-4 text-sm text-muted">
+          <span className="rounded-lg bg-white/5 px-3 py-1">{seasonInfo.year}</span>
           <span>{episodes.length} episodes</span>
-          <span>{totalRefs} references</span>
+          <span className="font-semibold text-psych-yellow">{totalRefs} references</span>
         </div>
 
         {/* Season navigation */}
-        <div className="mt-6 flex gap-2">
+        <div className="mt-6 flex flex-wrap gap-2">
           {SEASONS.map((s) => (
             <Link
               key={s.number}
               href={`/seasons/${s.number}`}
-              className={`rounded-lg px-3 py-1.5 text-sm font-medium transition-colors ${
+              className={`rounded-lg px-4 py-2 text-sm font-medium transition-all ${
                 s.number === num
-                  ? "bg-psych-green text-black"
-                  : "border border-border text-muted hover:border-psych-green hover:text-white"
+                  ? "bg-psych-green text-black shadow-lg shadow-psych-green/20"
+                  : "border border-white/10 text-muted hover:border-psych-green/40 hover:text-white"
               }`}
             >
               S{s.number}
@@ -72,17 +75,19 @@ export default function SeasonPage() {
           >
             <Link
               href={`/episodes/${ep.slug}`}
-              className="block rounded-xl border border-border bg-card p-5 transition-colors hover:border-psych-green hover:bg-card-hover"
+              className="glass-card group block rounded-xl p-5 transition-all"
             >
               <div className="flex items-start justify-between">
                 <div className="flex-1">
                   <div className="flex items-center gap-3">
-                    <span className="rounded bg-psych-green/20 px-2 py-0.5 text-xs font-medium text-psych-green">
+                    <span className="rounded-lg bg-psych-green/15 px-2.5 py-0.5 text-xs font-semibold text-psych-green">
                       E{ep.episode}
                     </span>
-                    <h3 className="text-lg font-semibold">{ep.title}</h3>
+                    <h3 className="text-lg font-semibold transition-colors group-hover:text-psych-yellow">
+                      {ep.title}
+                    </h3>
                   </div>
-                  <div className="mt-1 flex items-center gap-3 text-xs text-muted">
+                  <div className="mt-1.5 flex items-center gap-3 text-xs text-muted">
                     <span className="flex items-center gap-1">
                       <Calendar size={12} /> {ep.airDate}
                     </span>
@@ -90,9 +95,18 @@ export default function SeasonPage() {
                       <Hash size={12} /> {ep.references.length} references
                     </span>
                   </div>
-                  <p className="mt-2 line-clamp-2 text-sm text-muted">{ep.synopsis}</p>
+                  <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">
+                    {ep.synopsis}
+                  </p>
                 </div>
-                <span className="ml-4 text-psych-yellow">→</span>
+                <div className="ml-4 flex flex-col items-center gap-1">
+                  <span className="rounded-full bg-psych-yellow/10 px-2.5 py-1 text-xs font-bold text-psych-yellow">
+                    {ep.references.length}
+                  </span>
+                  {ep.references.length >= 10 && (
+                    <span className="text-sm" title="Pineapple episode!">🍍</span>
+                  )}
+                </div>
               </div>
             </Link>
           </motion.div>

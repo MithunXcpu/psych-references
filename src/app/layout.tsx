@@ -30,9 +30,18 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased min-h-screen flex flex-col`}
       >
-        <Navbar />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        {/* Subtle background pattern */}
+        <div className="pointer-events-none fixed inset-0 z-0">
+          <div className="absolute inset-0 bg-gradient-to-br from-psych-green/3 via-transparent to-psych-yellow/2" />
+          <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-psych-green/3 blur-3xl" />
+          <div className="absolute top-0 left-0 h-64 w-64 rounded-full bg-psych-yellow/2 blur-3xl" />
+        </div>
+
+        <div className="relative z-10 flex min-h-screen flex-col">
+          <Navbar />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );

@@ -3,6 +3,7 @@ export interface Reference {
   reference: string;
   category: "movie" | "tv" | "music" | "celebrity" | "history" | "other";
   explanation: string;
+  link?: string;
 }
 
 export interface Episode {
