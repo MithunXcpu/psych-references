@@ -7,30 +7,18 @@ export const season5: Episode[] = [
     season: 5,
     episode: 1,
     airDate: "2010-07-14",
-    synopsis:
-      "Shawn and Gus investigate a Chinatown gang war where two rival families' children have fallen in love, turning the case into a modern Romeo and Juliet story.",
+    synopsis: "Shawn and Gus investigate a Chinatown gang war where two rival families' children have fallen in love, turning the case into a modern Romeo and Juliet story.",
     references: [
-      {
-        quote: "Two households, both alike in crime...",
-        reference: "Romeo + Juliet (1996)",
-        category: "movie",
-        explanation:
-          "The episode directly references Baz Luhrmann's modern Romeo + Juliet with Leonardo DiCaprio, which set Shakespeare's tragedy among warring Verona Beach gangs. The rival-family-romance-amid-violence structure is identical.",
-      },
-      {
-        quote: "Forget it, Gus. It's Chinatown.",
-        reference: "Chinatown (1974)",
-        category: "movie",
-        explanation:
-          "Shawn drops the legendary closing line from Roman Polanski's Chinatown, one of film noir's greatest conclusions. Jack Nicholson's defeated acceptance became shorthand for unfixable corruption.",
-      },
-      {
-        quote: "This is like a John Woo movie but with less doves.",
-        reference: "John Woo Hong Kong cinema",
-        category: "movie",
-        explanation:
-          "The Triad gang dynamics reference Hong Kong action director John Woo's crime films like A Better Tomorrow and The Killer, known for stylized gun battles, themes of honor, and symbolic white doves.",
-      },
+      { quote: "Two households, both alike in crime...", reference: "Romeo + Juliet (1996)", category: "movie", explanation: "The episode directly references Baz Luhrmann's modern Romeo + Juliet with Leonardo DiCaprio, which set Shakespeare's tragedy among warring Verona Beach gangs.", link: "https://www.imdb.com/title/tt0117509/" },
+      { quote: "Forget it, Gus. It's Chinatown.", reference: "Chinatown (1974)", category: "movie", explanation: "Shawn drops the legendary closing line from Roman Polanski's Chinatown, one of film noir's greatest conclusions spoken by Jack Nicholson.", link: "https://www.imdb.com/title/tt0071315/" },
+      { quote: "This is like a John Woo movie but with less doves.", reference: "John Woo Hong Kong cinema", category: "movie", explanation: "The Triad gang dynamics reference Hong Kong action director John Woo's crime films like The Killer and A Better Tomorrow, known for stylized gun battles and symbolic white doves.", link: "https://www.imdb.com/name/nm0000247/" },
+      { quote: "Star-crossed lovers, Gus. Emphasis on the crossed.", reference: "West Side Story (1961)", category: "movie", explanation: "The rival family romance parallels West Side Story, the Bernstein/Sondheim musical that transplanted Romeo and Juliet to 1950s New York gang rivalries.", link: "https://www.imdb.com/title/tt0055614/" },
+      { quote: "I know things, Gus. I've seen Big Trouble in Little China.", reference: "Big Trouble in Little China (1986)", category: "movie", explanation: "Shawn's Chinatown adventures channel John Carpenter's cult classic where Kurt Russell stumbles into a supernatural martial arts underworld beneath San Francisco's Chinatown.", link: "https://www.imdb.com/title/tt0090728/" },
+      { quote: "You know that's right.", reference: "Psych running gag", category: "other", explanation: "Gus's signature affirmation catchphrase, used whenever Shawn makes a point Gus agrees with emphatically.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "This whole family feud thing... and I don't mean the Steve Harvey kind.", reference: "Family Feud", category: "tv", explanation: "Shawn references the long-running TV game show Family Feud, which has been hosted by various comedians including Steve Harvey since 2010.", link: "https://www.imdb.com/title/tt0074006/" },
+      { quote: "Don't be the American adaptation of a perfectly good foreign film.", reference: "Psych 'Don't be a' running gag", category: "other", explanation: "One of Shawn's signature 'Don't be a' insults to Gus, this time targeting Hollywood's habit of remaking international cinema.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "I feel like we're in a Bruce Lee movie right now.", reference: "Enter the Dragon (1973)", category: "movie", explanation: "The martial arts undertones of the Chinatown setting evoke Bruce Lee's Enter the Dragon, the landmark martial arts film that established the genre in Western cinema.", link: "https://www.imdb.com/title/tt0070034/" },
+      { quote: "Parting is such sweet sorrow. Shakespeare, Gus.", reference: "Romeo and Juliet by William Shakespeare", category: "other", explanation: "Shawn quotes the famous line from Shakespeare's original Romeo and Juliet, Juliet's words from the balcony scene in Act II.", link: "https://en.wikipedia.org/wiki/Romeo_and_Juliet" },
     ],
   },
   {
@@ -39,30 +27,18 @@ export const season5: Episode[] = [
     season: 5,
     episode: 2,
     airDate: "2010-07-21",
-    synopsis:
-      "A champion tap dancer is murdered, and Shawn and Gus go undercover in the competitive tap dance world.",
+    synopsis: "A champion tap dancer is murdered, and Shawn and Gus go undercover in the competitive tap dance world.",
     references: [
-      {
-        quote: "I'm singin' in the rain, and also solving a murder.",
-        reference: "Singin' in the Rain (1952)",
-        category: "movie",
-        explanation:
-          "The tap dance setting references the greatest movie musical ever made, Singin' in the Rain, starring Gene Kelly. The iconic title sequence of Kelly dancing in a rainstorm defined joyful cinema.",
-      },
-      {
-        quote: "Tap is serious business. Ask Gregory Hines.",
-        reference: "Tap (1989) / Gregory Hines",
-        category: "movie",
-        explanation:
-          "The film Tap starring Gregory Hines and Sammy Davis Jr. explored the world of competitive tap dancing. Hines was considered the greatest tap dancer of his generation.",
-      },
-      {
-        quote: "I've got rhythm. I've got music.",
-        reference: "I Got Rhythm by George Gershwin",
-        category: "music",
-        explanation:
-          "Gus channels the Gershwin standard 'I Got Rhythm,' one of the most important compositions in American popular music. The song has been covered by everyone from Ethel Merman to Judy Garland.",
-      },
+      { quote: "I'm singin' in the rain, and also solving a murder.", reference: "Singin' in the Rain (1952)", category: "movie", explanation: "The tap dance setting references the greatest movie musical ever made, starring Gene Kelly in the iconic sequence of dancing joyfully in a rainstorm.", link: "https://www.imdb.com/title/tt0045152/" },
+      { quote: "Tap is serious business. Ask Gregory Hines.", reference: "Tap (1989) / Gregory Hines", category: "movie", explanation: "The film Tap starring Gregory Hines and Sammy Davis Jr. explored the world of competitive tap dancing. Hines was considered the greatest tap dancer of his generation.", link: "https://www.imdb.com/title/tt0098414/" },
+      { quote: "I've got rhythm. I've got music.", reference: "I Got Rhythm by George Gershwin", category: "music", explanation: "Gus channels the Gershwin standard 'I Got Rhythm,' one of the most important compositions in American popular music, covered by Ethel Merman and Judy Garland.", link: "https://en.wikipedia.org/wiki/I_Got_Rhythm" },
+      { quote: "Happy feet, Gus. Murder feet.", reference: "Happy Feet (2006)", category: "movie", explanation: "A reference to the animated penguin musical Happy Feet, where dancing is everything to the penguin community — much like the competitive dance world in this episode.", link: "https://www.imdb.com/title/tt0366548/" },
+      { quote: "This is like Footloose but somebody actually died.", reference: "Footloose (1984)", category: "movie", explanation: "The dance-centric murder mystery evokes Footloose, where Kevin Bacon fought a small town's dance ban. The stakes in Psych's version are considerably higher.", link: "https://www.imdb.com/title/tt0087277/" },
+      { quote: "Gus, don't be the last person picked for a dance battle.", reference: "Psych 'Don't be a' running gag", category: "other", explanation: "Another of Shawn's creative 'Don't be a' insults, turning the dance episode into fodder for his running gag with Gus.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "Shuffle, ball change, murder. The triple threat.", reference: "A Chorus Line (1985)", category: "movie", explanation: "The cutthroat world of dance competition references A Chorus Line, the musical about desperate dancers auditioning for limited Broadway spots.", link: "https://www.imdb.com/title/tt0088930/" },
+      { quote: "I've heard it both ways — shuffle ball change or ball change shuffle.", reference: "Psych 'I've heard it both ways' running gag", category: "other", explanation: "Shawn's go-to deflection when caught mispronouncing or getting something wrong, applied here to dance terminology.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "Fred Astaire made it look easy. It is not easy.", reference: "Fred Astaire", category: "celebrity", explanation: "Gus references the legendary Fred Astaire, whose seemingly effortless dance performances with Ginger Rogers defined Hollywood's golden age of musicals.", link: "https://www.imdb.com/name/nm0000001/" },
+      { quote: "Somebody call the Jabbawockeez because this just got real.", reference: "Jabbawockeez / America's Best Dance Crew", category: "tv", explanation: "The Jabbawockeez won Season 1 of MTV's America's Best Dance Crew in 2008, becoming the most famous dance crew in the competitive reality dance scene.", link: "https://en.wikipedia.org/wiki/Jabbawockeez" },
     ],
   },
   {
@@ -71,30 +47,18 @@ export const season5: Episode[] = [
     season: 5,
     episode: 3,
     airDate: "2010-07-28",
-    synopsis:
-      "Shawn and Gus investigate a UFO sighting that coincides with a disappearance, exploring whether aliens or humans are responsible.",
+    synopsis: "Shawn and Gus investigate a UFO sighting that coincides with a disappearance, exploring whether aliens or humans are responsible.",
     references: [
-      {
-        quote: "This means something. This is important.",
-        reference: "Close Encounters of the Third Kind (1977)",
-        category: "movie",
-        explanation:
-          "The title and mashed potato scene directly reference Spielberg's Close Encounters of the Third Kind, where Richard Dreyfuss obsessively sculpts Devil's Tower in his mashed potatoes after witnessing a UFO.",
-      },
-      {
-        quote: "The truth is out there, Gus. Way out there.",
-        reference: "The X-Files (1993)",
-        category: "tv",
-        explanation:
-          "Shawn quotes The X-Files' iconic tagline 'The truth is out there.' The UFO investigation and believer-vs-skeptic dynamic directly channels Mulder and Scully's dynamic.",
-      },
-      {
-        quote: "If little green men show up, I'm calling Will Smith.",
-        reference: "Independence Day (1996)",
-        category: "movie",
-        explanation:
-          "The alien encounter references Independence Day, where Will Smith punched an alien and delivered the quip 'Welcome to Earth.' The film defined 90s alien invasion blockbusters.",
-      },
+      { quote: "This means something. This is important.", reference: "Close Encounters of the Third Kind (1977)", category: "movie", explanation: "The title and plot directly reference Spielberg's Close Encounters, where Richard Dreyfuss obsessively sculpts Devil's Tower after witnessing a UFO.", link: "https://www.imdb.com/title/tt0075860/" },
+      { quote: "The truth is out there, Gus. Way out there.", reference: "The X-Files (1993)", category: "tv", explanation: "Shawn quotes The X-Files' iconic tagline. The UFO investigation and believer-vs-skeptic dynamic directly channels Mulder and Scully.", link: "https://www.imdb.com/title/tt0106179/" },
+      { quote: "If little green men show up, I'm calling Will Smith.", reference: "Independence Day (1996)", category: "movie", explanation: "A reference to Independence Day, where Will Smith punched an alien and delivered 'Welcome to Earth,' defining 90s alien invasion blockbusters.", link: "https://www.imdb.com/title/tt0116629/" },
+      { quote: "E.T. phone home. Gus, phone the police.", reference: "E.T. the Extra-Terrestrial (1982)", category: "movie", explanation: "Shawn riffs on the most famous line from Spielberg's E.T., the beloved story of a boy befriending a stranded alien that became the highest-grossing film of the 1980s.", link: "https://www.imdb.com/title/tt0083866/" },
+      { quote: "I'm not saying it's aliens... but it's aliens.", reference: "Ancient Aliens / Giorgio Tsoukalos meme", category: "tv", explanation: "A riff on Giorgio Tsoukalos's famous meme from Ancient Aliens on the History Channel, where his wild hair and alien theories became an internet sensation.", link: "https://www.imdb.com/title/tt1643266/" },
+      { quote: "Gus, this is Area 51 level stuff right here.", reference: "Area 51", category: "history", explanation: "Area 51, the classified Air Force facility in Nevada, has been the center of UFO conspiracy theories since the 1947 Roswell incident. The government didn't acknowledge its existence until 2013.", link: "https://en.wikipedia.org/wiki/Area_51" },
+      { quote: "Take me to your leader. Or at least to the crime scene.", reference: "Classic sci-fi trope", category: "other", explanation: "The iconic 'Take me to your leader' phrase originated in 1950s science fiction comics and became the quintessential alien greeting in pop culture.", link: "https://en.wikipedia.org/wiki/Take_me_to_your_leader" },
+      { quote: "They mostly come at night. Mostly.", reference: "Aliens (1986)", category: "movie", explanation: "Shawn quotes Newt's terrifying line from James Cameron's Aliens, the sequel that turned Sigourney Weaver's Ripley into cinema's greatest action heroine.", link: "https://www.imdb.com/title/tt0090605/" },
+      { quote: "I want to believe, Gus. I really do.", reference: "The X-Files poster", category: "tv", explanation: "The 'I Want to Believe' poster hanging in Fox Mulder's FBI office became one of television's most iconic props, representing Mulder's faith in the paranormal.", link: "https://www.imdb.com/title/tt0106179/" },
+      { quote: "Don't be the remake of The Day the Earth Stood Still.", reference: "The Day the Earth Stood Still (2008)", category: "movie", explanation: "Shawn's 'Don't be a' targets the 2008 Keanu Reeves remake of the 1951 sci-fi classic, widely regarded as an unnecessary and inferior version.", link: "https://www.imdb.com/title/tt0970416/" },
     ],
   },
   {
@@ -103,32 +67,19 @@ export const season5: Episode[] = [
     season: 5,
     episode: 4,
     airDate: "2010-08-04",
-    synopsis:
-      "A murder at a Renaissance fair sends Shawn and Gus into the world of medieval reenactment, jousting, and courtly love.",
+    synopsis: "A murder at a Renaissance fair sends Shawn and Gus into the world of medieval reenactment, jousting, and courtly love.",
     references: [
-      {
-        quote:
-          "A knight's tale, Gus. Except I'm the knight and you're the tale.",
-        reference: "A Knight's Tale (2001)",
-        category: "movie",
-        explanation:
-          "The medieval tournament setting directly references A Knight's Tale, where Heath Ledger's peasant poses as a knight. The film's anachronistic use of modern music at jousting matches was groundbreaking.",
-      },
-      {
-        quote:
-          "These people take their 'my lords' and 'my ladies' very seriously.",
-        reference: "Renaissance fair culture",
-        category: "other",
-        explanation:
-          "The episode lovingly satirizes Renaissance fair culture, a distinctly American phenomenon where participants immerse themselves in medieval fantasy. Over 200 Renaissance fairs operate annually in the US.",
-      },
-      {
-        quote: "None shall pass! Also, you're under arrest.",
-        reference: "Monty Python and the Holy Grail (1975)",
-        category: "movie",
-        explanation:
-          "The medieval comedy references Monty Python and the Holy Grail, the Pythons' legendary parody of Arthurian legend. 'None shall pass' from the Black Knight scene is one of comedy's most quoted lines.",
-      },
+      { quote: "A knight's tale, Gus. Except I'm the knight and you're the tale.", reference: "A Knight's Tale (2001)", category: "movie", explanation: "The medieval tournament setting directly references A Knight's Tale, where Heath Ledger's peasant poses as a knight with anachronistic rock music at jousting matches.", link: "https://www.imdb.com/title/tt0183790/" },
+      { quote: "These people take their lords and ladies very seriously.", reference: "Renaissance fair culture", category: "other", explanation: "The episode lovingly satirizes Renaissance fair culture, a distinctly American phenomenon where participants immerse themselves in medieval fantasy.", link: "https://en.wikipedia.org/wiki/Renaissance_fair" },
+      { quote: "None shall pass! Also, you're under arrest.", reference: "Monty Python and the Holy Grail (1975)", category: "movie", explanation: "The Black Knight's 'None shall pass' from Monty Python and the Holy Grail is one of comedy's most quoted lines, perfectly suited to the medieval setting.", link: "https://www.imdb.com/title/tt0071853/" },
+      { quote: "I'm pulling a sword from the stone, metaphorically.", reference: "The Sword in the Stone (1963)", category: "movie", explanation: "Disney's animated adaptation of the King Arthur legend, where young Arthur proves his royalty by pulling Excalibur from the stone, a foundational medieval myth.", link: "https://www.imdb.com/title/tt0057546/" },
+      { quote: "Gus, we're basically in Game of Thrones but with turkey legs.", reference: "Medieval fantasy genre", category: "other", explanation: "The Renaissance fair setting evokes the medieval fantasy genre that would soon explode with Game of Thrones, which premiered the following year in 2011.", link: "https://en.wikipedia.org/wiki/Medieval_fantasy" },
+      { quote: "M'lady, I'm a psychic. Also, someone's been murdered.", reference: "The Princess Bride (1987)", category: "movie", explanation: "The courtly romance amid danger echoes The Princess Bride, Rob Reiner's beloved fairy tale adventure featuring Westley's devotion to Princess Buttercup.", link: "https://www.imdb.com/title/tt0093779/" },
+      { quote: "I dub thee Sir Solves-a-Lot.", reference: "Knighting ceremony tradition", category: "history", explanation: "The dubbing ceremony dates to medieval European tradition where monarchs bestowed knighthood by tapping a sword on the recipient's shoulders.", link: "https://en.wikipedia.org/wiki/Accolade_(knighthood)" },
+      { quote: "Come on, son! This mead is actually pretty good.", reference: "Psych 'Come on, son' running gag", category: "other", explanation: "Gus's signature exclamation of disbelief or excitement, here applied to his surprise enjoyment of traditional medieval honey wine.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "You remind me of the babe. The babe with the power.", reference: "Labyrinth (1986)", category: "movie", explanation: "Shawn quotes the famous 'Magic Dance' sequence from Jim Henson's Labyrinth, starring David Bowie as the Goblin King in one of fantasy cinema's most iconic roles.", link: "https://www.imdb.com/title/tt0091369/" },
+      { quote: "What is the airspeed velocity of an unladen swallow?", reference: "Monty Python and the Holy Grail (1975)", category: "movie", explanation: "Another Holy Grail reference — the Bridge of Death scene where King Arthur must answer absurd questions, including this one about swallow aerodynamics.", link: "https://www.imdb.com/title/tt0071853/" },
+      { quote: "Excalibur! I found it! It's a letter opener.", reference: "Excalibur (1981)", category: "movie", explanation: "John Boorman's Excalibur brought Arthurian legend to screen with operatic grandeur, making the mythical sword a symbol of rightful kingship in cinema.", link: "https://www.imdb.com/title/tt0082348/" },
     ],
   },
   {
@@ -137,31 +88,18 @@ export const season5: Episode[] = [
     season: 5,
     episode: 5,
     airDate: "2010-08-11",
-    synopsis:
-      "Shawn and Gus go undercover in the illegal drag racing scene after a racer is found dead.",
+    synopsis: "Shawn and Gus go undercover in the illegal drag racing scene after a racer is found dead.",
     references: [
-      {
-        quote: "I live my life a quarter mile at a time, Gus.",
-        reference: "The Fast and the Furious (2001)",
-        category: "movie",
-        explanation:
-          "The drag racing plot directly references the Fast and Furious franchise, quoting Vin Diesel's famous philosophy. The underground racing culture and family themes are straight from Dom Toretto's playbook.",
-      },
-      {
-        quote: "We're in. Now we just need to not crash.",
-        reference: "2 Fast 2 Furious (2003)",
-        category: "movie",
-        explanation:
-          "Going undercover in the racing scene mirrors Paul Walker's infiltration in the original film and its sequel 2 Fast 2 Furious, where law enforcement embeds within criminal racing operations.",
-      },
-      {
-        quote: "Drag racing, not drag... the other kind. Although...",
-        reference:
-          "To Wong Foo, Thanks for Everything! Julie Newmar (1995)",
-        category: "movie",
-        explanation:
-          "The title's double meaning playfully references To Wong Foo, where Patrick Swayze, Wesley Snipes, and John Leguizamo play drag queens. The wordplay is classic Psych misdirection.",
-      },
+      { quote: "I live my life a quarter mile at a time, Gus.", reference: "The Fast and the Furious (2001)", category: "movie", explanation: "Shawn quotes Vin Diesel's famous philosophy from The Fast and the Furious, the film that launched a multi-billion dollar franchise about street racing and family.", link: "https://www.imdb.com/title/tt0232500/" },
+      { quote: "We're in. Now we just need to not crash.", reference: "2 Fast 2 Furious (2003)", category: "movie", explanation: "Going undercover in the racing scene mirrors Paul Walker's infiltration in the Fast and Furious series, where law enforcement embeds within criminal racing operations.", link: "https://www.imdb.com/title/tt0322259/" },
+      { quote: "Drag racing, not drag... the other kind. Although...", reference: "To Wong Foo, Thanks for Everything! Julie Newmar (1995)", category: "movie", explanation: "The title's double meaning playfully references To Wong Foo, where Patrick Swayze, Wesley Snipes, and John Leguizamo play drag queens on a road trip.", link: "https://www.imdb.com/title/tt0114682/" },
+      { quote: "Gus, we're like Thunder and Lightning. From Days of Thunder.", reference: "Days of Thunder (1990)", category: "movie", explanation: "Tom Cruise's Days of Thunder brought the intensity of Top Gun to NASCAR racing, with Cruise as a hotshot driver and Nicole Kidman as his love interest.", link: "https://www.imdb.com/title/tt0099855/" },
+      { quote: "If you ain't first, you're last. Wait, that doesn't make sense.", reference: "Talladega Nights (2006)", category: "movie", explanation: "Ricky Bobby's nonsensical motto from Talladega Nights: The Ballad of Ricky Bobby, Will Ferrell's NASCAR comedy that skewered American racing culture.", link: "https://www.imdb.com/title/tt0415306/" },
+      { quote: "I am speed. Actually I'm a psychic, but speed is a close second.", reference: "Cars (2006)", category: "movie", explanation: "Lightning McQueen's self-affirmation mantra 'I am speed' from Pixar's Cars, the animated film about a hotshot race car learning humility in a small town.", link: "https://www.imdb.com/title/tt0317219/" },
+      { quote: "Grease Lightning! Go Grease Lightning!", reference: "Grease (1978)", category: "movie", explanation: "The car culture evokes 'Greased Lightnin'' from Grease, where John Travolta's Danny Zuko and the T-Birds fantasize about transforming a jalopy into a hot rod.", link: "https://www.imdb.com/title/tt0077631/" },
+      { quote: "Don't be the forgotten Wayans brother, Gus.", reference: "Psych 'Don't be a' running gag", category: "other", explanation: "Shawn's creative insult references the large Wayans entertainment family, where some siblings achieved far greater fame than others in Hollywood.", link: "https://en.wikipedia.org/wiki/Wayans_family" },
+      { quote: "Ride or die. But preferably just ride.", reference: "Street racing culture", category: "other", explanation: "The 'ride or die' ethos permeates street racing culture and was popularized in mainstream culture through the Fast and Furious franchise and hip-hop.", link: "https://en.wikipedia.org/wiki/Street_racing" },
+      { quote: "What's the retail on one of those? More than you can afford, pal.", reference: "The Fast and the Furious (2001)", category: "movie", explanation: "A callback to the famous exchange in the original Fast and Furious when a man asks about the price of a Ferrari — the attitude that defined the franchise's swagger.", link: "https://www.imdb.com/title/tt0232500/" },
     ],
   },
   {
@@ -170,31 +108,18 @@ export const season5: Episode[] = [
     season: 5,
     episode: 6,
     airDate: "2010-09-22",
-    synopsis:
-      "Two retired detectives hire Shawn and Gus to help solve their last case, leading to a buddy-cop dynamic across generations.",
+    synopsis: "Two retired detectives hire Shawn and Gus to help solve their last case, leading to a buddy-cop dynamic across generations.",
     references: [
-      {
-        quote: "You two are like Lethal Weapon: The Retirement Years.",
-        reference: "Lethal Weapon (1987)",
-        category: "movie",
-        explanation:
-          "The aging buddy cop dynamic references the Lethal Weapon franchise, where Mel Gibson and Danny Glover's 'too old for this' partnership defined buddy cop movies. Roger Murtaugh's 'I'm too old for this' is iconic.",
-      },
-      {
-        quote:
-          "Niagara Falls is beautiful this time of year. Not where we're going.",
-        reference: "Niagara Falls / Viagra",
-        category: "other",
-        explanation:
-          "The title combines Niagara Falls with Viagra for a joke about aging detectives. Viagra, introduced in 1998, became one of the most recognizable pharmaceutical brands and a staple of retirement humor.",
-      },
-      {
-        quote: "Old dogs, new tricks, and a very cold case.",
-        reference: "The Bucket List (2007)",
-        category: "movie",
-        explanation:
-          "The aging-but-still-capable detectives echo The Bucket List's theme of elderly men refusing to slow down. Jack Nicholson and Morgan Freeman proved age doesn't diminish the desire for adventure.",
-      },
+      { quote: "You two are like Lethal Weapon: The Retirement Years.", reference: "Lethal Weapon (1987)", category: "movie", explanation: "The aging buddy cop dynamic references the Lethal Weapon franchise, where Mel Gibson and Danny Glover's partnership defined the buddy cop genre.", link: "https://www.imdb.com/title/tt0093409/" },
+      { quote: "Niagara Falls is beautiful this time of year. Not where we're going.", reference: "Niagara Falls / Viagra", category: "other", explanation: "The title combines Niagara Falls with Viagra for a joke about aging detectives. Viagra became one of the most recognizable pharmaceutical brands after its 1998 introduction.", link: "https://en.wikipedia.org/wiki/Niagara_Falls" },
+      { quote: "Old dogs, new tricks, and a very cold case.", reference: "The Bucket List (2007)", category: "movie", explanation: "The aging-but-still-capable detectives echo The Bucket List, where Jack Nicholson and Morgan Freeman proved age doesn't diminish the desire for adventure.", link: "https://www.imdb.com/title/tt0825232/" },
+      { quote: "I'm getting too old for this. Actually, no I'm not.", reference: "Lethal Weapon - Roger Murtaugh", category: "movie", explanation: "Danny Glover's catchphrase 'I'm too old for this' became the defining line of reluctant-but-competent veterans in action cinema.", link: "https://www.imdb.com/title/tt0093409/" },
+      { quote: "These guys are like Starsky and Hutch meets Cocoon.", reference: "Cocoon (1985)", category: "movie", explanation: "Ron Howard's Cocoon, about senior citizens rejuvenated by alien cocoons, was the defining feel-good movie about elderly characters reclaiming their vitality.", link: "https://www.imdb.com/title/tt0088933/" },
+      { quote: "You know that's right. Respect your elders.", reference: "Psych running gag", category: "other", explanation: "Gus's signature catchphrase, here used in the context of showing respect to the veteran detectives who paved the way.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "It's like Grumpy Old Men but with badges.", reference: "Grumpy Old Men (1993)", category: "movie", explanation: "Jack Lemmon and Walter Matthau's bickering senior citizens in Grumpy Old Men established the template for comedic elderly rivalry that this episode mines.", link: "https://www.imdb.com/title/tt0107050/" },
+      { quote: "Cold case, hot pursuit. That's a tagline, Gus.", reference: "Cold Case (2003)", category: "tv", explanation: "The cold case element references the CBS procedural Cold Case, which specialized in solving long-dormant crimes using modern forensic techniques.", link: "https://www.imdb.com/title/tt0368479/" },
+      { quote: "Back in their day, it was all rotary phones and shoe leather.", reference: "Dragnet (1967)", category: "tv", explanation: "The old-school detective methods evoke Dragnet's Jack Webb, whose just-the-facts approach to police work defined TV crime procedurals for decades.", link: "https://www.imdb.com/title/tt0061248/" },
+      { quote: "One last ride. Every cop movie ends with one last ride.", reference: "Cop movie tropes", category: "movie", explanation: "The 'one last job' trope is ubiquitous in crime cinema, from Lethal Weapon 4 to countless heist films where retirement gets interrupted by unfinished business.", link: "https://en.wikipedia.org/wiki/Heist_film" },
     ],
   },
   {
@@ -203,32 +128,18 @@ export const season5: Episode[] = [
     season: 5,
     episode: 7,
     airDate: "2010-09-29",
-    synopsis:
-      "A murder on a ferry traps Shawn and Gus on the boat with the killer, creating a floating locked-room mystery.",
+    synopsis: "A murder on a ferry traps Shawn and Gus on the boat with the killer, creating a floating locked-room mystery.",
     references: [
-      {
-        quote:
-          "This ferry is about to become the Poseidon. The adventure kind.",
-        reference: "The Poseidon Adventure (1972)",
-        category: "movie",
-        explanation:
-          "The ferry disaster elements reference The Poseidon Adventure, the disaster film about a capsized ocean liner. Gene Hackman leading survivors through the overturned ship pioneered the disaster movie genre.",
-      },
-      {
-        quote: "I'm the king of the... ferry.",
-        reference: "Titanic (1997)",
-        category: "movie",
-        explanation:
-          "Shawn's bow stance directly parodies Leonardo DiCaprio's iconic 'I'm the king of the world!' moment from Titanic. The 1997 film became the highest-grossing movie of its time.",
-      },
-      {
-        quote:
-          "There are 200 passengers and one of them is a killer.",
-        reference: "Speed 2: Cruise Control (1997)",
-        category: "movie",
-        explanation:
-          "The contained-vessel-with-a-killer premise references Speed 2: Cruise Control, the sequel to Speed set on a cruise ship. While critically panned, it established the boat-thriller subgenre.",
-      },
+      { quote: "This ferry is about to become the Poseidon. The adventure kind.", reference: "The Poseidon Adventure (1972)", category: "movie", explanation: "The ferry disaster elements reference The Poseidon Adventure, the landmark disaster film about a capsized ocean liner that pioneered the genre.", link: "https://www.imdb.com/title/tt0069113/" },
+      { quote: "I'm the king of the... ferry.", reference: "Titanic (1997)", category: "movie", explanation: "Shawn's bow stance parodies Leonardo DiCaprio's iconic 'I'm the king of the world!' moment from Titanic, which became the highest-grossing film of its era.", link: "https://www.imdb.com/title/tt0120338/" },
+      { quote: "There are 200 passengers and one of them is a killer.", reference: "Speed 2: Cruise Control (1997)", category: "movie", explanation: "The contained-vessel-with-a-killer premise references Speed 2: Cruise Control, the sequel set on a cruise ship that became a notorious box office disappointment.", link: "https://www.imdb.com/title/tt0120179/" },
+      { quote: "Murder on the Orient Express, except it's a ferry.", reference: "Murder on the Orient Express (1974)", category: "movie", explanation: "The locked-room mystery on a vessel references Agatha Christie's Murder on the Orient Express, where Hercule Poirot solves a murder aboard a snowbound train.", link: "https://www.imdb.com/title/tt0071877/" },
+      { quote: "We're gonna need a bigger boat. Actually, this one's fine.", reference: "Jaws (1975)", category: "movie", explanation: "Roy Scheider's immortal ad-lib from Jaws, spoken upon first seeing the massive great white shark, became one of cinema's most quoted lines.", link: "https://www.imdb.com/title/tt0073195/" },
+      { quote: "Gus, we're trapped on this boat like it's The Love Boat from hell.", reference: "The Love Boat (1977)", category: "tv", explanation: "The Love Boat ran for nine seasons on ABC, with the Pacific Princess hosting romantic comedy adventures — a far cry from Shawn's murder-ferry experience.", link: "https://www.imdb.com/title/tt0075529/" },
+      { quote: "Don't be the iceberg that sank the Titanic, Gus.", reference: "Psych 'Don't be a' running gag", category: "other", explanation: "Shawn's nautical-themed 'Don't be a' insult, referencing the most famous maritime disaster in history.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "It was Colonel Mustard in the engine room with the wrench.", reference: "Clue (1985)", category: "movie", explanation: "The whodunit on a closed vessel evokes the board game movie Clue, where suspects are trapped in a mansion trying to determine the murderer, weapon, and location.", link: "https://www.imdb.com/title/tt0088930/" },
+      { quote: "No one leaves this boat until we find the killer.", reference: "And Then There Were None by Agatha Christie", category: "other", explanation: "Christie's masterpiece about ten strangers trapped on an island being killed one by one is the gold standard for isolated-location mysteries.", link: "https://en.wikipedia.org/wiki/And_Then_There_Were_None" },
+      { quote: "Abandon ship! Or don't. Because the killer is out there too.", reference: "The Perfect Storm (2000)", category: "movie", explanation: "The trapped-at-sea tension references The Perfect Storm, where George Clooney's fishing crew faces a convergence of deadly weather systems with no escape.", link: "https://www.imdb.com/title/tt0177971/" },
     ],
   },
   {
@@ -237,30 +148,18 @@ export const season5: Episode[] = [
     season: 5,
     episode: 8,
     airDate: "2010-10-06",
-    synopsis:
-      "A new consultant who mirrors Shawn's personality threatens to replace him at the SBPD, creating a rivalry that may be more dangerous than it appears.",
+    synopsis: "A new consultant who mirrors Shawn's personality threatens to replace him at the SBPD, creating a rivalry that may be more dangerous than it appears.",
     references: [
-      {
-        quote: "He's me but... upgraded? That's not possible.",
-        reference: "Single White Female (1992)",
-        category: "movie",
-        explanation:
-          "The identity-copying rival references Single White Female, where Bridget Fonda's roommate (Jennifer Jason Leigh) gradually assumes her identity. The obsessive mimicry creates escalating psychological horror.",
-      },
-      {
-        quote: "There can be only one. That's from Highlander.",
-        reference: "Highlander (1986)",
-        category: "movie",
-        explanation:
-          "Shawn quotes Highlander's immortal catchphrase 'There can be only one,' perfectly capturing the rivalry. The 1986 fantasy film about immortals who must battle until one remains is endlessly quotable.",
-      },
-      {
-        quote: "I am not being replaced by a newer model.",
-        reference: "The Cable Guy (1996)",
-        category: "movie",
-        explanation:
-          "The unsettling new friend who won't go away echoes Jim Carrey's Cable Guy, where an overeager acquaintance becomes increasingly threatening. The comedy-turned-thriller tone shift mirrors Psych's approach.",
-      },
+      { quote: "He's me but... upgraded? That's not possible.", reference: "Single White Female (1992)", category: "movie", explanation: "The identity-copying rival references Single White Female, where Jennifer Jason Leigh's roommate gradually assumes Bridget Fonda's identity with escalating menace.", link: "https://www.imdb.com/title/tt0105414/" },
+      { quote: "There can be only one. That's from Highlander.", reference: "Highlander (1986)", category: "movie", explanation: "Shawn quotes Highlander's immortal catchphrase, perfectly capturing the rivalry between two psychic consultants in a battle for SBPD supremacy.", link: "https://www.imdb.com/title/tt0091203/" },
+      { quote: "I am not being replaced by a newer model.", reference: "The Cable Guy (1996)", category: "movie", explanation: "The unsettling new friend who won't go away echoes Jim Carrey's Cable Guy, where an overeager acquaintance becomes increasingly threatening.", link: "https://www.imdb.com/title/tt0115798/" },
+      { quote: "This is some Talented Mr. Ripley stuff right here.", reference: "The Talented Mr. Ripley (1999)", category: "movie", explanation: "Matt Damon's Tom Ripley systematically assumes another man's identity and life in Anthony Minghella's thriller, the ultimate identity-theft narrative.", link: "https://www.imdb.com/title/tt0134119/" },
+      { quote: "I've been Punk'd. Ashton, where are you?", reference: "Punk'd (2003)", category: "tv", explanation: "Ashton Kutcher's MTV prank show Punk'd was a cultural phenomenon in the 2000s, where celebrities were elaborately pranked on hidden camera.", link: "https://www.imdb.com/title/tt0357057/" },
+      { quote: "Gus, I think my clone is trying to kill me.", reference: "Multiplicity (1996)", category: "movie", explanation: "Michael Keaton's Multiplicity explored the chaos of having copies of yourself, with each clone becoming a more distorted version of the original.", link: "https://www.imdb.com/title/tt0117108/" },
+      { quote: "You know that's right. Nobody replaces us.", reference: "Psych running gag", category: "other", explanation: "Gus rallies with his signature catchphrase, affirming the irreplaceable bond between the original Psych detective duo.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "Imitation is not flattery. It's creepy.", reference: "Invasion of the Body Snatchers (1978)", category: "movie", explanation: "The doppelgänger theme evokes Invasion of the Body Snatchers, where alien duplicates replace humans — Donald Sutherland's pointing scream is horror's most chilling image.", link: "https://www.imdb.com/title/tt0077745/" },
+      { quote: "I was here first. This is my turf.", reference: "West Side Story (1961)", category: "movie", explanation: "The territorial rivalry between consultants echoes the Jets and Sharks fighting over their neighborhood in West Side Story's gang turf wars.", link: "https://www.imdb.com/title/tt0055614/" },
+      { quote: "Don't be Harry Potter's dark twin from a fan fiction, Gus.", reference: "Psych 'Don't be a' running gag", category: "other", explanation: "Shawn's pop culture 'Don't be a' insult merges the doppelgänger theme with Harry Potter fan fiction tropes about evil twins and dark counterparts.", link: "https://en.wikipedia.org/wiki/Psych" },
     ],
   },
   {
@@ -269,32 +168,18 @@ export const season5: Episode[] = [
     season: 5,
     episode: 9,
     airDate: "2010-10-20",
-    synopsis:
-      "A mysterious woman on the run involves Shawn in an international spy conspiracy, testing his relationship with Juliet.",
+    synopsis: "A mysterious woman on the run involves Shawn in an international spy conspiracy, testing his relationship with Juliet.",
     references: [
-      {
-        quote:
-          "Your mission, should you choose to accept it... I always accept.",
-        reference: "Mission: Impossible (1996)",
-        category: "movie",
-        explanation:
-          "The spy thriller elements directly reference Mission: Impossible, from the secret messages to the double-crosses. Tom Cruise's franchise made espionage entertaining and accessible.",
-      },
-      {
-        quote:
-          "She's like a Bond girl. The dangerous kind. They're all dangerous.",
-        reference: "James Bond femme fatale trope",
-        category: "movie",
-        explanation:
-          "The mysterious woman references the Bond girl archetype, particularly the dangerous variety like Xenia Onatopp (GoldenEye) or Vesper Lynd (Casino Royale), women whose allure masks lethal intentions.",
-      },
-      {
-        quote: "This goes deeper than we thought. Way deeper.",
-        reference: "The Bourne Identity (2002)",
-        category: "movie",
-        explanation:
-          "The layered international conspiracy mirrors the Bourne franchise's shadowy government agencies and global cover-ups. Matt Damon's amnesiac spy uncovering institutional corruption redefined the modern spy thriller.",
-      },
+      { quote: "Your mission, should you choose to accept it... I always accept.", reference: "Mission: Impossible (1996)", category: "movie", explanation: "The spy thriller elements directly reference Mission: Impossible, from the secret messages to the double-crosses in Tom Cruise's franchise.", link: "https://www.imdb.com/title/tt0117060/" },
+      { quote: "She's like a Bond girl. The dangerous kind.", reference: "James Bond franchise", category: "movie", explanation: "The mysterious woman references the Bond girl archetype, particularly dangerous ones like Vesper Lynd from Casino Royale whose allure masks lethal intentions.", link: "https://www.imdb.com/title/tt0381061/" },
+      { quote: "This goes deeper than we thought. Way deeper.", reference: "The Bourne Identity (2002)", category: "movie", explanation: "The layered international conspiracy mirrors the Bourne franchise's shadowy government agencies. Matt Damon's amnesiac spy redefined the modern spy thriller.", link: "https://www.imdb.com/title/tt0258463/" },
+      { quote: "Trust no one, Gus. Except me. And maybe Jules.", reference: "Three Days of the Condor (1975)", category: "movie", explanation: "The paranoid spy thriller atmosphere channels Three Days of the Condor, where Robert Redford's CIA analyst discovers he can't trust anyone in his own agency.", link: "https://www.imdb.com/title/tt0073802/" },
+      { quote: "I feel like we're in a John le Carré novel.", reference: "John le Carré spy novels", category: "other", explanation: "John le Carré's espionage novels like Tinker Tailor Soldier Spy brought literary gravitas to the spy genre with their complex, morally ambiguous characters.", link: "https://en.wikipedia.org/wiki/John_le_Carr%C3%A9" },
+      { quote: "Spy versus spy. Or in this case, psychic versus spy.", reference: "Spy vs. Spy (MAD Magazine)", category: "other", explanation: "Antonio Prohías's Spy vs. Spy comic strip ran in MAD Magazine from 1961, featuring two identical spies in black and white locked in eternal conflict.", link: "https://en.wikipedia.org/wiki/Spy_vs._Spy" },
+      { quote: "She's got more aliases than Jason Bourne.", reference: "The Bourne Supremacy (2004)", category: "movie", explanation: "Bourne's multiple identities and passports became a defining element of the franchise, representing the fractured identity at the heart of modern espionage thrillers.", link: "https://www.imdb.com/title/tt0372183/" },
+      { quote: "Come on, son! She's clearly a double agent.", reference: "Psych 'Come on, son' running gag", category: "other", explanation: "Gus's signature exclamation applied to spy intrigue, combining his catchphrase with his frustration at Shawn's romantic entanglements during a case.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "This is very North by Northwest right now.", reference: "North by Northwest (1959)", category: "movie", explanation: "Hitchcock's North by Northwest stars Cary Grant as an ordinary man swept into international espionage, chased across America in cinema's greatest thriller.", link: "https://www.imdb.com/title/tt0053125/" },
+      { quote: "I've heard it both ways — espionage and spy stuff.", reference: "Psych 'I've heard it both ways' running gag", category: "other", explanation: "Shawn's trademark deflection, here humorously pretending that 'espionage' and 'spy stuff' are two different things he's heard debated.", link: "https://en.wikipedia.org/wiki/Psych" },
     ],
   },
   {
@@ -303,31 +188,18 @@ export const season5: Episode[] = [
     season: 5,
     episode: 10,
     airDate: "2010-11-10",
-    synopsis:
-      "Despereaux returns and Shawn must help extradite the art thief back to the US, but discovers the case is more complicated than a simple handover.",
+    synopsis: "Despereaux returns and Shawn must help extradite the art thief back to the US, but discovers the case is more complicated than a simple handover.",
     references: [
-      {
-        quote: "The sequel is always bigger. Sometimes better.",
-        reference: "Sequel culture in Hollywood",
-        category: "other",
-        explanation:
-          "The episode's self-aware sequel title references Hollywood's obsession with sequels and franchises. The 'Actual Extradition' subtitle jokes about the first episode not delivering on its title's promise.",
-      },
-      {
-        quote: "I steal things beautifully. It's an art form.",
-        reference: "To Catch a Thief (1955)",
-        category: "movie",
-        explanation:
-          "Despereaux channels Cary Grant's reformed jewel thief in Hitchcock's To Catch a Thief, set on the French Riviera. Both are charming thieves whose elegance makes audiences root for them despite their crimes.",
-      },
-      {
-        quote:
-          "You'll never take me alive. Well, you might. But dramatically.",
-        reference: "Catch Me If You Can (2002)",
-        category: "movie",
-        explanation:
-          "The charming criminal evading capture mirrors Spielberg's Catch Me If You Can, where Leonardo DiCaprio's Frank Abagnale Jr. charms his way through increasingly elaborate cons while Tom Hanks pursues him.",
-      },
+      { quote: "The sequel is always bigger. Sometimes better.", reference: "Sequel culture in Hollywood", category: "other", explanation: "The self-aware sequel title references Hollywood's obsession with sequels, joking that the first episode didn't deliver on its title's promise of an actual extradition.", link: "https://en.wikipedia.org/wiki/Sequel" },
+      { quote: "I steal things beautifully. It's an art form.", reference: "To Catch a Thief (1955)", category: "movie", explanation: "Despereaux channels Cary Grant's reformed jewel thief in Hitchcock's To Catch a Thief, both charming criminals whose elegance makes audiences root for them.", link: "https://www.imdb.com/title/tt0048728/" },
+      { quote: "You'll never take me alive. Well, you might. But dramatically.", reference: "Catch Me If You Can (2002)", category: "movie", explanation: "Despereaux's charming evasion mirrors Spielberg's Catch Me If You Can, where Leonardo DiCaprio's Frank Abagnale Jr. charms his way through elaborate cons.", link: "https://www.imdb.com/title/tt0264464/" },
+      { quote: "Cary Elwes is a national treasure. Like the movie.", reference: "National Treasure (2004)", category: "movie", explanation: "A meta-reference connecting guest star Cary Elwes (who plays Despereaux) with Nicolas Cage's National Treasure, about stealing the Declaration of Independence.", link: "https://www.imdb.com/title/tt0368891/" },
+      { quote: "As you wish, detective.", reference: "The Princess Bride (1987)", category: "movie", explanation: "Despereaux's line echoes Westley's signature phrase from The Princess Bride — fitting since guest star Cary Elwes played Westley in that beloved film.", link: "https://www.imdb.com/title/tt0093779/" },
+      { quote: "He's like a Bond villain but we like him.", reference: "James Bond villains", category: "movie", explanation: "Despereaux's suave criminality evokes the charming Bond villains who audiences love despite their evil, like Javier Bardem's Silva or Mads Mikkelsen's Le Chiffre.", link: "https://en.wikipedia.org/wiki/List_of_James_Bond_villains" },
+      { quote: "Gus, don't be the unnecessary third Ghostbuster.", reference: "Psych 'Don't be a' running gag", category: "other", explanation: "Shawn's 'Don't be a' insult plays on the idea that one Ghostbuster is always the forgotten one, as Gus feels left out of the Shawn-Despereaux dynamic.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "Every great heist needs a dashing gentleman.", reference: "The Thomas Crown Affair (1999)", category: "movie", explanation: "Pierce Brosnan's suave art thief in The Thomas Crown Affair remake embodies the same charm-as-weapon approach that makes Despereaux so compelling.", link: "https://www.imdb.com/title/tt0155267/" },
+      { quote: "International intrigue, Gus. It's like a spy movie with better art.", reference: "Ocean's Twelve (2004)", category: "movie", explanation: "The international art theft sequel vibes channel Ocean's Twelve, where Clooney's crew heads to Europe for an even more elaborate heist with a charming rival.", link: "https://www.imdb.com/title/tt0349903/" },
+      { quote: "You know that's right. Despereaux is legendary.", reference: "Psych running gag", category: "other", explanation: "Even Gus has to admit Despereaux's appeal with his signature catchphrase, acknowledging the art thief's irresistible charisma.", link: "https://en.wikipedia.org/wiki/Psych" },
     ],
   },
   {
@@ -336,30 +208,18 @@ export const season5: Episode[] = [
     season: 5,
     episode: 11,
     airDate: "2010-11-17",
-    synopsis:
-      "A murder at a theme park during its annual haunted house event sends Shawn and Gus through terrifying attractions to find the killer.",
+    synopsis: "A murder at a theme park during its annual haunted house event sends Shawn and Gus through terrifying attractions to find the killer.",
     references: [
-      {
-        quote: "This is Final Destination: Theme Park Edition.",
-        reference: "Final Destination (2000)",
-        category: "movie",
-        explanation:
-          "The death-at-an-amusement-park premise references Final Destination 3, which featured a terrifying roller coaster accident. The franchise's elaborate death sequences made everyday activities terrifying.",
-      },
-      {
-        quote: "Scooby-Doo would have solved this already.",
-        reference: "Scooby-Doo",
-        category: "tv",
-        explanation:
-          "The amusement park mystery is classic Scooby-Doo territory — unmasking a villain in a scary setting. Psych's DNA includes heavy Scooby-Doo influence: the van, the cowardly partner, the fake supernatural.",
-      },
-      {
-        quote: "Wanna play a game? No? Me neither.",
-        reference: "Saw (2004)",
-        category: "movie",
-        explanation:
-          "The trapped-in-deadly-games element references the Saw franchise, where Jigsaw's elaborate traps tested victims' will to survive. The haunted house setting naturally evokes the franchise's horror maze aesthetic.",
-      },
+      { quote: "This is Final Destination: Theme Park Edition.", reference: "Final Destination (2000)", category: "movie", explanation: "The death-at-an-amusement-park premise references Final Destination 3's terrifying roller coaster accident that kicks off the franchise's elaborate death sequences.", link: "https://www.imdb.com/title/tt0195714/" },
+      { quote: "Scooby-Doo would have solved this already.", reference: "Scooby-Doo", category: "tv", explanation: "The amusement park mystery is classic Scooby-Doo territory — unmasking a villain in a scary setting. Psych's DNA includes heavy Scooby-Doo influence.", link: "https://www.imdb.com/title/tt0063950/" },
+      { quote: "Wanna play a game? No? Me neither.", reference: "Saw (2004)", category: "movie", explanation: "Jigsaw's 'Wanna play a game?' from the Saw franchise, where elaborate traps test victims' will to survive, fits the haunted house setting perfectly.", link: "https://www.imdb.com/title/tt0387564/" },
+      { quote: "This is like Six Flags meets Friday the 13th.", reference: "Friday the 13th (1980)", category: "movie", explanation: "Jason Voorhees stalking camp counselors at Crystal Lake became the template for slasher films, making masked killers in recreational settings a horror staple.", link: "https://www.imdb.com/title/tt0080761/" },
+      { quote: "The fun house isn't fun anymore, Gus.", reference: "The Funhouse (1981)", category: "movie", explanation: "Tobe Hooper's The Funhouse trapped teenagers in a carnival funhouse with a killer, establishing the 'deadly amusement park' as a horror subgenre.", link: "https://www.imdb.com/title/tt0082427/" },
+      { quote: "I see dead people. Well, one dead person. That's plenty.", reference: "The Sixth Sense (1999)", category: "movie", explanation: "Shawn quotes Haley Joel Osment's famous whisper from The Sixth Sense, M. Night Shyamalan's film with arguably cinema's greatest twist ending.", link: "https://www.imdb.com/title/tt0167404/" },
+      { quote: "Gus, don't be a Tilt-A-Whirl. This is serious.", reference: "Psych 'Don't be a' running gag", category: "other", explanation: "Shawn's theme-park-themed 'Don't be a' insult, naming the spinning carnival ride to tell Gus to stop being dizzy and unfocused.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "Here's Johnny! Just kidding. It's just me.", reference: "The Shining (1980)", category: "movie", explanation: "Jack Nicholson's terrifying 'Here's Johnny!' as he axes through a door in The Shining is horror cinema's most iconic moment, parodied in the haunted setting.", link: "https://www.imdb.com/title/tt0081505/" },
+      { quote: "Run, Gus! This is not a drill! Well, it's not a haunted drill either.", reference: "Zombieland (2009)", category: "movie", explanation: "The panicked fleeing through a horror-themed venue channels Zombieland's Pacific Playland finale, where the amusement park becomes the setting for zombie survival.", link: "https://www.imdb.com/title/tt1156398/" },
+      { quote: "They're heeeere. And they're trying to kill us.", reference: "Poltergeist (1982)", category: "movie", explanation: "Carol Anne's chilling 'They're heeeere' from Tobe Hooper's Poltergeist, where suburban ghosts terrorize a family, is one of horror's most recognized lines.", link: "https://www.imdb.com/title/tt0084516/" },
     ],
   },
   {
@@ -368,38 +228,19 @@ export const season5: Episode[] = [
     season: 5,
     episode: 12,
     airDate: "2010-12-01",
-    synopsis:
-      "Shawn and Gus visit the quirky small town of Dual Spires to investigate the murder of a young woman found by a creek, in a full-length homage to Twin Peaks.",
+    synopsis: "Shawn and Gus visit the quirky small town of Dual Spires to investigate the murder of a young woman found by a creek, in a full-length homage to Twin Peaks.",
     references: [
-      {
-        quote:
-          "The owls are not what they seem. Wait, wrong show. Same vibe.",
-        reference: "Twin Peaks (1990)",
-        category: "tv",
-        explanation:
-          "The entire episode is a loving homage to David Lynch's Twin Peaks. From the murdered girl by the water to the quirky small-town residents, every element mirrors the groundbreaking series. Multiple Twin Peaks cast members guest star.",
-      },
-      {
-        quote: "She's dead. Wrapped in plastic.",
-        reference: "Twin Peaks pilot - Laura Palmer",
-        category: "tv",
-        explanation:
-          "The discovery of the body directly recreates Twin Peaks' most iconic image: Laura Palmer's body wrapped in plastic by the water. Pete Martell's 'She's dead. Wrapped in plastic.' opened the series.",
-      },
-      {
-        quote: "This is a damn fine cup of cider.",
-        reference: "Agent Cooper's coffee and pie",
-        category: "tv",
-        explanation:
-          "Agent Cooper's love of 'damn fine coffee' and cherry pie at the Double R Diner is parodied with Shawn's cider and cinnamon pie. Kyle MacLachlan's enthusiasm for the simple pleasures defined Cooper's charm.",
-      },
-      {
-        quote: "The pineapple is not what it seems.",
-        reference: "The Black Lodge / Man from Another Place",
-        category: "tv",
-        explanation:
-          "The backwards-speaking character references the Man from Another Place in Twin Peaks' Black Lodge, played by Michael J. Anderson. The surreal red-curtained room became Lynch's most famous visual.",
-      },
+      { quote: "The owls are not what they seem. Wait, wrong show. Same vibe.", reference: "Twin Peaks (1990)", category: "tv", explanation: "The entire episode is a loving homage to David Lynch's Twin Peaks, from the murdered girl to the quirky townsfolk, with multiple Twin Peaks cast members guest starring.", link: "https://www.imdb.com/title/tt0098936/" },
+      { quote: "She's dead. Wrapped in plastic.", reference: "Twin Peaks pilot - Laura Palmer", category: "tv", explanation: "The body discovery recreates Twin Peaks' most iconic image: Laura Palmer's body wrapped in plastic by the water, the image that launched the series.", link: "https://www.imdb.com/title/tt0098936/" },
+      { quote: "This is a damn fine cup of cider.", reference: "Agent Cooper's coffee and pie", category: "tv", explanation: "Agent Cooper's love of 'damn fine coffee' and cherry pie at the Double R Diner is parodied with Shawn's cider and cinnamon pie.", link: "https://www.imdb.com/title/tt0098936/" },
+      { quote: "The pineapple is not what it seems.", reference: "The Black Lodge / Man from Another Place", category: "tv", explanation: "The backwards-speaking character references the Man from Another Place in Twin Peaks' surreal Black Lodge, the red-curtained room that became Lynch's most famous visual.", link: "https://www.imdb.com/title/tt0098936/" },
+      { quote: "There's a log lady here. She has a very informative log.", reference: "Twin Peaks Log Lady", category: "tv", explanation: "Catherine Coulson's Log Lady was Twin Peaks' most memorably quirky character, carrying a log that supposedly communicated secrets about the town's mysteries.", link: "https://www.imdb.com/title/tt0098936/" },
+      { quote: "Diane, I have entered this town and things are very, very strange.", reference: "Agent Dale Cooper's tape recorder", category: "tv", explanation: "Cooper's habit of recording observations to his unseen secretary Diane on a handheld recorder was a beloved character quirk and narrative device.", link: "https://www.imdb.com/title/tt0098936/" },
+      { quote: "That gum you like is going to come back in style.", reference: "Twin Peaks - The Man from Another Place", category: "tv", explanation: "The Man from Another Place's cryptic prophecy about gum coming back in style is one of Twin Peaks' most surreal and oft-quoted lines.", link: "https://www.imdb.com/title/tt0098936/" },
+      { quote: "Cinnamon festival? I love cinnamon festivals.", reference: "Twin Peaks culture", category: "tv", explanation: "The quirky small-town festivals echo Twin Peaks' Miss Twin Peaks pageant and the community events that masked the darkness beneath the idyllic surface.", link: "https://www.imdb.com/title/tt0098936/" },
+      { quote: "Fire walk with me, Gus. To the crime scene.", reference: "Twin Peaks: Fire Walk with Me (1992)", category: "movie", explanation: "David Lynch's prequel film Twin Peaks: Fire Walk with Me explored Laura Palmer's final days, its title becoming one of the franchise's most iconic phrases.", link: "https://www.imdb.com/title/tt0105665/" },
+      { quote: "Sometimes my arms bend back.", reference: "Twin Peaks - Laura Palmer in the Black Lodge", category: "tv", explanation: "Laura Palmer's cryptic statement in the Black Lodge dream sequence is one of Twin Peaks' most haunting and frequently referenced moments of surrealism.", link: "https://www.imdb.com/title/tt0098936/" },
+      { quote: "Who killed Paula Merral? That's the question.", reference: "Who Killed Laura Palmer?", category: "tv", explanation: "'Who killed Laura Palmer?' was the defining mystery of early Twin Peaks and became a cultural phenomenon, appearing on magazine covers and T-shirts nationwide.", link: "https://www.imdb.com/title/tt0098936/" },
     ],
   },
   {
@@ -408,33 +249,18 @@ export const season5: Episode[] = [
     season: 5,
     episode: 13,
     airDate: "2011-02-09",
-    synopsis:
-      "Shawn and Gus attend the police academy to improve their skills, but a series of incidents suggests someone is sabotaging recruits.",
+    synopsis: "Shawn and Gus attend the police academy to improve their skills, but a series of incidents suggests someone is sabotaging recruits.",
     references: [
-      {
-        quote:
-          "I feel like I'm in a Steve Guttenberg movie. The good one.",
-        reference: "Police Academy (1984)",
-        category: "movie",
-        explanation:
-          "The entire episode channels the Police Academy franchise, featuring misfit recruits and bumbling training sequences. The 1984 original spawned six sequels and made Steve Guttenberg a star.",
-      },
-      {
-        quote:
-          "Drop and give me twenty! Psychic readings, not push-ups.",
-        reference: "An Officer and a Gentleman (1982)",
-        category: "movie",
-        explanation:
-          "The tough love training approach references An Officer and a Gentleman, where Louis Gossett Jr.'s Sergeant Foley pushed Richard Gere's Zack Mayo to his limits. Gossett Jr. won an Oscar for the role.",
-      },
-      {
-        quote:
-          "Someone is picking off cadets. This is basically Battle Royale for cops.",
-        reference: "Full Metal Jacket (1987)",
-        category: "movie",
-        explanation:
-          "The systemic breakdown at the training facility echoes Full Metal Jacket's devastating boot camp sequence, where intense pressure leads to violence. The episode lightens Kubrick's dark theme considerably.",
-      },
+      { quote: "I feel like I'm in a Steve Guttenberg movie. The good one.", reference: "Police Academy (1984)", category: "movie", explanation: "The entire episode channels the Police Academy franchise, featuring misfit recruits and bumbling training sequences that made Steve Guttenberg a star.", link: "https://www.imdb.com/title/tt0087928/" },
+      { quote: "Drop and give me twenty! Psychic readings, not push-ups.", reference: "An Officer and a Gentleman (1982)", category: "movie", explanation: "The tough training approach references An Officer and a Gentleman, where Louis Gossett Jr.'s drill instructor pushed Richard Gere to his limits and won an Oscar.", link: "https://www.imdb.com/title/tt0084434/" },
+      { quote: "Someone is picking off cadets. This is basically Battle Royale for cops.", reference: "Full Metal Jacket (1987)", category: "movie", explanation: "The systemic breakdown at the academy echoes Full Metal Jacket's devastating boot camp sequence, where Kubrick showed military training's psychological toll.", link: "https://www.imdb.com/title/tt0093058/" },
+      { quote: "Thank the Academy? I'd like to thank my partner Gus.", reference: "Academy Awards acceptance speeches", category: "other", explanation: "The title references the Oscar tradition of thanking 'the Academy' in acceptance speeches, a ritual that has produced some of Hollywood's most memorable moments.", link: "https://en.wikipedia.org/wiki/Academy_Awards" },
+      { quote: "I was born ready. Trained? Not so much.", reference: "G.I. Jane (1997)", category: "movie", explanation: "Demi Moore's grueling military training in G.I. Jane established the 'civilian pushes through brutal academy training' trope that this episode plays for comedy.", link: "https://www.imdb.com/title/tt0119173/" },
+      { quote: "Gus, we're basically 21 Jump Street right now.", reference: "21 Jump Street (1987)", category: "tv", explanation: "Going undercover in an institutional setting echoes 21 Jump Street, the Fox series (and later films) where young-looking cops infiltrate schools and colleges.", link: "https://www.imdb.com/title/tt0092312/" },
+      { quote: "Don't be the one cadet who can't climb the rope, Gus.", reference: "Psych 'Don't be a' running gag", category: "other", explanation: "Shawn's academy-themed 'Don't be a' insult, referencing the classic rope-climbing obstacle that reveals the physically unprepared.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "Sweep the leg, Gus! Wait, that's karate.", reference: "The Karate Kid (1984)", category: "movie", explanation: "The Cobra Kai sensei's infamous 'Sweep the leg' order in The Karate Kid became shorthand for fighting dirty, referenced during physical training at the academy.", link: "https://www.imdb.com/title/tt0087538/" },
+      { quote: "You know that's right. We earned these badges.", reference: "Psych running gag", category: "other", explanation: "Gus's signature affirmation takes on new meaning in the academy context, where they're literally earning credentials alongside their catchphrases.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "I feel like we're pledging a really intense fraternity.", reference: "Animal House (1978)", category: "movie", explanation: "The hazing-like academy experience channels National Lampoon's Animal House, the comedy that defined fraternity culture and institutional misbehavior in American cinema.", link: "https://www.imdb.com/title/tt0077975/" },
     ],
   },
   {
@@ -443,31 +269,19 @@ export const season5: Episode[] = [
     season: 5,
     episode: 14,
     airDate: "2011-02-16",
-    synopsis:
-      "In a Christmas episode, Shawn is visited by spirits who show him what life would be like if he never started Psych, in an It's a Wonderful Life homage.",
+    synopsis: "In a Christmas episode, Shawn is visited by spirits who show him what life would be like if he never started Psych, in an It's a Wonderful Life homage.",
     references: [
-      {
-        quote:
-          "Every time a bell rings, a fake psychic gets his wings.",
-        reference: "It's a Wonderful Life (1946)",
-        category: "movie",
-        explanation:
-          "The entire episode is an It's a Wonderful Life homage, with Shawn seeing a world where he never became a psychic detective. Frank Capra's 1946 classic about George Bailey seeing his impact on Bedford Falls is the ultimate Christmas film.",
-      },
-      {
-        quote: "All aboard the express to self-reflection.",
-        reference: "The Polar Express (2004)",
-        category: "movie",
-        explanation:
-          "The title parodies The Polar Express, the Tom Hanks motion-capture animated film about a boy's magical Christmas Eve train ride to the North Pole. The 'Polarizing' twist adds Psych's trademark wordplay.",
-      },
-      {
-        quote: "Bah humbug... actually, I love Christmas.",
-        reference: "A Christmas Carol by Charles Dickens",
-        category: "other",
-        explanation:
-          "The three-spirits structure comes from Dickens' A Christmas Carol, where Ebenezer Scrooge is visited by the Ghosts of Christmas Past, Present, and Future. The episode maintains Dickens' redemption arc.",
-      },
+      { quote: "Every time a bell rings, a fake psychic gets his wings.", reference: "It's a Wonderful Life (1946)", category: "movie", explanation: "The entire episode is an It's a Wonderful Life homage, with Shawn seeing a world where he never became a psychic detective, mirroring George Bailey's journey.", link: "https://www.imdb.com/title/tt0038650/" },
+      { quote: "All aboard the express to self-reflection.", reference: "The Polar Express (2004)", category: "movie", explanation: "The title parodies The Polar Express, Tom Hanks's motion-capture animated film about a boy's magical Christmas Eve train ride to the North Pole.", link: "https://www.imdb.com/title/tt0338348/" },
+      { quote: "Bah humbug... actually, I love Christmas.", reference: "A Christmas Carol by Charles Dickens", category: "other", explanation: "The three-spirits structure comes from Dickens' A Christmas Carol, where Scrooge is visited by the Ghosts of Christmas Past, Present, and Future for redemption.", link: "https://en.wikipedia.org/wiki/A_Christmas_Carol" },
+      { quote: "What if I was never born? This is very Clarence.", reference: "Clarence the angel", category: "movie", explanation: "Clarence Odbody, the angel trying to earn his wings in It's a Wonderful Life, shows George Bailey his impact by revealing a world without him.", link: "https://www.imdb.com/title/tt0038650/" },
+      { quote: "Christmas miracles, Gus. They're a real thing.", reference: "Miracle on 34th Street (1947)", category: "movie", explanation: "The classic Christmas film about believing in Santa Claus, where a department store Santa claims to be the real Kris Kringle, embodies the holiday miracle spirit.", link: "https://www.imdb.com/title/tt0039628/" },
+      { quote: "You'll shoot your eye out! But in this case, with a pineapple.", reference: "A Christmas Story (1983)", category: "movie", explanation: "The repeated warning from A Christmas Story about Ralphie's Red Ryder BB gun became the most quoted Christmas movie line, twisted here with Psych's signature fruit.", link: "https://www.imdb.com/title/tt0085334/" },
+      { quote: "Merry Christmas, ya filthy animal.", reference: "Home Alone (1990)", category: "movie", explanation: "Kevin McCallister's favorite fictional gangster movie line from Home Alone became inseparable from Christmas culture, quoted every holiday season.", link: "https://www.imdb.com/title/tt0099785/" },
+      { quote: "I've heard it both ways — Merry Christmas and Happy Holidays.", reference: "Psych 'I've heard it both ways' running gag", category: "other", explanation: "Shawn applies his trademark deflection to the perennial holiday greeting debate, refusing to commit to either side.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "The alternate timeline is scary. But not Nightmare Before Christmas scary.", reference: "The Nightmare Before Christmas (1993)", category: "movie", explanation: "Tim Burton's stop-motion masterpiece merged Halloween and Christmas, with Jack Skellington's misguided attempt to take over Christmas creating a holiday classic.", link: "https://www.imdb.com/title/tt0107688/" },
+      { quote: "Don't be Scrooge McDuck counting coins on Christmas Eve.", reference: "Psych 'Don't be a' running gag / DuckTales", category: "other", explanation: "Shawn combines his 'Don't be a' gag with Disney's Scrooge McDuck, the Dickens-inspired DuckTales character known for swimming in his money vault.", link: "https://en.wikipedia.org/wiki/Scrooge_McDuck" },
+      { quote: "Come on, son! It's Christmas! Where's your spirit?", reference: "Psych 'Come on, son' running gag", category: "other", explanation: "Gus's signature exclamation deployed during the holiday episode, demanding Shawn embrace the Christmas spirit and his own life's value.", link: "https://en.wikipedia.org/wiki/Psych" },
     ],
   },
   {
@@ -476,30 +290,18 @@ export const season5: Episode[] = [
     season: 5,
     episode: 15,
     airDate: "2011-02-23",
-    synopsis:
-      "A bear at the Santa Barbara Zoo is accused of killing its handler, and Shawn must prove the bear's innocence before it's put down.",
+    synopsis: "A bear at the Santa Barbara Zoo is accused of killing its handler, and Shawn must prove the bear's innocence before it's put down.",
     references: [
-      {
-        quote: "This bear is walking the green mile.",
-        reference: "Dead Man Walking (1995)",
-        category: "movie",
-        explanation:
-          "The title parodies Dead Man Walking, the Sean Penn/Susan Sarandon film about a death row inmate and his spiritual advisor. Replacing 'Man' with 'Bear' gives the serious death penalty drama a Psych twist.",
-      },
-      {
-        quote: "Free the bear! Free all the bears!",
-        reference: "Free Willy (1993)",
-        category: "movie",
-        explanation:
-          "The save-the-animal narrative references Free Willy, where a boy befriends a captive orca and fights to release it. The film launched a wave of animal-rights-themed family entertainment.",
-      },
-      {
-        quote: "This bear is innocent until proven grizzly.",
-        reference: "Grizzly Man (2005)",
-        category: "movie",
-        explanation:
-          "The human-bear relationship references Werner Herzog's documentary Grizzly Man, about Timothy Treadwell who lived among wild grizzlies and was eventually killed by one. The tragedy underscores nature's unpredictability.",
-      },
+      { quote: "This bear is walking the green mile.", reference: "Dead Man Walking (1995)", category: "movie", explanation: "The title parodies Dead Man Walking, the Sean Penn/Susan Sarandon film about a death row inmate and his spiritual advisor, with 'Man' replaced by 'Bear.'", link: "https://www.imdb.com/title/tt0112818/" },
+      { quote: "Free the bear! Free all the bears!", reference: "Free Willy (1993)", category: "movie", explanation: "The save-the-animal narrative references Free Willy, where a boy befriends a captive orca and fights to release it, launching animal-rights family entertainment.", link: "https://www.imdb.com/title/tt0106965/" },
+      { quote: "This bear is innocent until proven grizzly.", reference: "Grizzly Man (2005)", category: "movie", explanation: "Werner Herzog's documentary Grizzly Man chronicles Timothy Treadwell's life among wild grizzlies and his tragic death, underscoring nature's unpredictability.", link: "https://www.imdb.com/title/tt0427312/" },
+      { quote: "Gus, this is like The Shawshank Redemption but with more fur.", reference: "The Shawshank Redemption (1994)", category: "movie", explanation: "The wrongly accused inmate fighting for freedom is the heart of Shawshank Redemption, Tim Robbins and Morgan Freeman's prison masterpiece about hope.", link: "https://www.imdb.com/title/tt0111161/" },
+      { quote: "Somebody call PETA. Actually, don't. I'll handle this.", reference: "PETA (People for the Ethical Treatment of Animals)", category: "other", explanation: "PETA has been the most prominent animal rights organization since its founding in 1980, known for both activism and controversial publicity campaigns.", link: "https://en.wikipedia.org/wiki/People_for_the_Ethical_Treatment_of_Animals" },
+      { quote: "The bear didn't do it. Bears don't murder. They maul.", reference: "The Edge (1997)", category: "movie", explanation: "Anthony Hopkins and Alec Baldwin surviving a killer bear in The Edge is the definitive man-vs-bear survival film, where nature is the true antagonist.", link: "https://www.imdb.com/title/tt0119051/" },
+      { quote: "Don't be a koala, Gus. They're not even real bears.", reference: "Psych 'Don't be a' running gag", category: "other", explanation: "Shawn's zoologically accurate 'Don't be a' insult, noting that koalas are marsupials, not bears — a common misconception he weaponizes against Gus.", link: "https://en.wikipedia.org/wiki/Koala" },
+      { quote: "I'm like a bear whisperer. The Robert Redford kind.", reference: "The Horse Whisperer (1998)", category: "movie", explanation: "Robert Redford's Horse Whisperer about a man with a supernatural ability to communicate with traumatized horses popularized the 'whisperer' concept in pop culture.", link: "https://www.imdb.com/title/tt0119314/" },
+      { quote: "You know that's right. This bear is family.", reference: "Psych running gag", category: "other", explanation: "Gus's signature catchphrase applied to their protective instinct over the accused bear, extending their partnership's loyalty to the animal kingdom.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "Gentle Ben wouldn't hurt a fly. This is basically the same thing.", reference: "Gentle Ben (1967)", category: "tv", explanation: "The CBS series Gentle Ben about a boy and his friendly bear was wholesome 1960s family television, establishing the 'misunderstood gentle bear' archetype.", link: "https://www.imdb.com/title/tt0061246/" },
     ],
   },
   {
@@ -508,39 +310,20 @@ export const season5: Episode[] = [
     season: 5,
     episode: 16,
     airDate: "2011-03-02",
-    synopsis:
-      "The Yin-Yang saga concludes as Shawn faces the true mastermind behind the serial killings in a Tarantino-esque finale filled with misdirection and action.",
+    synopsis: "The Yin-Yang saga concludes as Shawn faces the true mastermind behind the serial killings in a Tarantino-esque finale filled with misdirection and action.",
     references: [
-      {
-        quote: "Revenge is a dish best served... psychically.",
-        reference: "Kill Bill (2003-2004)",
-        category: "movie",
-        explanation:
-          "The episode channels Quentin Tarantino's Kill Bill with its chapter-based structure, stylized violence, and revenge narrative. The Bride's quest to eliminate the Deadly Viper Assassination Squad inspired the episode's format.",
-      },
-      {
-        quote:
-          "Let me start from the beginning. Actually, let me start from the middle.",
-        reference: "Pulp Fiction (1994)",
-        category: "movie",
-        explanation:
-          "The non-linear narrative structure references Pulp Fiction, Tarantino's masterpiece that revolutionized storytelling by presenting events out of chronological order. The technique became a hallmark of 1990s cinema.",
-      },
-      {
-        quote:
-          "Everybody has a gun pointed at somebody. This is very Tarantino.",
-        reference: "Reservoir Dogs (1992)",
-        category: "movie",
-        explanation:
-          "The tense standoff references Reservoir Dogs' famous Mexican standoff scene, Tarantino's directorial debut. The multi-person standoff became one of the director's signature set pieces.",
-      },
-      {
-        quote: "The saga ends. But the legend lives on.",
-        reference: "The Silence of the Lambs (1991)",
-        category: "movie",
-        explanation:
-          "The conclusion of the serial killer arc echoes The Silence of the Lambs' complex relationship between hunter and hunted. Yang's connection to Shawn mirrors Lecter's fascination with Clarice.",
-      },
+      { quote: "Revenge is a dish best served... psychically.", reference: "Kill Bill (2003-2004)", category: "movie", explanation: "The episode channels Tarantino's Kill Bill with its chapter-based structure, stylized action, and revenge narrative inspired by The Bride's quest.", link: "https://www.imdb.com/title/tt0266697/" },
+      { quote: "Let me start from the beginning. Actually, let me start from the middle.", reference: "Pulp Fiction (1994)", category: "movie", explanation: "The non-linear narrative structure references Pulp Fiction, Tarantino's masterpiece that revolutionized storytelling by presenting events out of chronological order.", link: "https://www.imdb.com/title/tt0110912/" },
+      { quote: "Everybody has a gun pointed at somebody. This is very Tarantino.", reference: "Reservoir Dogs (1992)", category: "movie", explanation: "The tense standoff references Reservoir Dogs' famous Mexican standoff scene from Tarantino's directorial debut, establishing his signature set piece.", link: "https://www.imdb.com/title/tt0105236/" },
+      { quote: "The saga ends. But the legend lives on.", reference: "The Silence of the Lambs (1991)", category: "movie", explanation: "The Yin-Yang serial killer arc's conclusion echoes The Silence of the Lambs' complex hunter-hunted relationship between Clarice and Lecter.", link: "https://www.imdb.com/title/tt0102926/" },
+      { quote: "Gus, this is our Empire Strikes Back. The stakes just got real.", reference: "The Empire Strikes Back (1980)", category: "movie", explanation: "The darkest and most acclaimed Star Wars sequel raised stakes dramatically with its shocking twist, just as this season finale escalates the Yin-Yang mythology.", link: "https://www.imdb.com/title/tt0080684/" },
+      { quote: "It was Yang all along. Or was it?", reference: "The Usual Suspects (1995)", category: "movie", explanation: "The identity misdirection channels The Usual Suspects, where Keyser Söze's true identity is cinema's greatest twist, making audiences question everything they saw.", link: "https://www.imdb.com/title/tt0114814/" },
+      { quote: "I see you, Yin. And you see me. It's like a Hitchcock ending.", reference: "Alfred Hitchcock thrillers", category: "movie", explanation: "The psychological cat-and-mouse game channels Hitchcock's signature style of building suspense through character confrontation and revelation.", link: "https://www.imdb.com/name/nm0000033/" },
+      { quote: "The third time's the charm. Or the third time's the most dangerous.", reference: "Se7en (1995)", category: "movie", explanation: "The serial killer trilogy's conclusion evokes David Fincher's Se7en, where Brad Pitt and Morgan Freeman track a killer using the seven deadly sins as a template.", link: "https://www.imdb.com/title/tt0114369/" },
+      { quote: "You know that's right. We survived the Yin-Yang killer.", reference: "Psych running gag", category: "other", explanation: "Gus's triumphant use of his signature catchphrase after surviving the show's most dangerous multi-season arc, celebrating their survival.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "Gus, don't be the twist ending nobody asked for.", reference: "Psych 'Don't be a' running gag", category: "other", explanation: "Shawn's 'Don't be a' targets unnecessary plot twists, fitting for a finale built entirely on misdirection and revelations.", link: "https://en.wikipedia.org/wiki/Psych" },
+      { quote: "To be continued... in our nightmares.", reference: "Horror franchise endings", category: "movie", explanation: "Horror franchises traditionally end with a 'the evil isn't really dead' stinger, from Friday the 13th to A Nightmare on Elm Street, leaving room for sequels.", link: "https://en.wikipedia.org/wiki/Horror_film" },
+      { quote: "I'd like to think there's a little Yin and Yang in all of us.", reference: "Yin and Yang philosophy", category: "history", explanation: "The ancient Chinese philosophy of Yin and Yang represents complementary forces — the show uses this to explore the duality between Shawn's light and the villain's darkness.", link: "https://en.wikipedia.org/wiki/Yin_and_yang" },
     ],
   },
 ];
