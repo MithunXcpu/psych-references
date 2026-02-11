@@ -35,7 +35,7 @@ export default function ContactPage() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          action="https://formspree.io/f/xplaceholder"
+          action="https://formspree.io/f/xnjbjvng"
           method="POST"
           onSubmit={() => setSubmitted(true)}
           className="mt-10 space-y-6"
